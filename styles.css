@@ -4,11 +4,10 @@ body {
 }
 
 #div-container {
-    top: 0px;
+     top: 0px;
     left: 0px;
-    margin-left: 36%;
-    width: 360px;
-    height: 1600xpx;
+    width: 100%;
+    height: 100%;
     background: #F7F7F7 0% 0% no-repeat padding-box;
     opacity: 1;
     border: 1px solid #7B7B7B29;
@@ -16,9 +15,9 @@ body {
 }
 
 #div1 {
-    top: 0px;
+     top: 0px;
     left: 0px;
-    width: 360px;
+    width: 100%;
     height: 94px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -34,7 +33,7 @@ body {
 }
 
 #div21 {
-    margin: 30px 80px 0px 0px;
+    margin: 30px 60px 0px 0px;
     width: 200px;
     height: 60px;
     text-align: right;
@@ -53,11 +52,11 @@ body {
 
 #heading {
     margin-top: 0%;
-    padding: 10px;
+    padding: 20px 800px 20px 100px ;
     top: 0px;
-    left: 10%;
-    width: 160px;
-    height: 45px;
+    left: 137px;
+    width: 196px;
+    height: 49px;
     text-align: center;
     font: normal normal bold 40px/49px Inter;
     letter-spacing: 0px;
@@ -68,10 +67,9 @@ body {
 #container {
     justify-content: left;
     flex-wrap: wrap;
-    margin-top: 60px;
-    margin-left: 3px;
-    display: flow-root;
-    padding: 10px 10px 10px 10px;
+    margin: 100px 0px 0px 100px ;
+    display: flex;
+    padding: 10px 10px 10px 90px;
     
 }
 
@@ -115,6 +113,81 @@ body {
 
 }
 
+@media only screen and (min-width:756px) and (max-width:1024px){
+    #div-container {
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid #7B7B7B29;
+
+}
+#heading {
+    margin-top: 0%;
+    padding: 20px 500px 20px 100px ;
+    top: 0px;
+    left: 137px;
+    width: 196px;
+    height: 49px;
+    text-align: center;
+    font: normal normal bold 40px/49px Inter;
+    letter-spacing: 0px;
+    opacity: 1
+    
+}
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0px 0px 0px ;
+    padding: 10px;
+    
+}
+}
+@media only screen and (min-width:326px) and (max-width:756px){
+    #div-container {
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid #7B7B7B29;
+
+}
+#heading {
+    margin-top: 0%;
+    padding: 20px ;
+    top: 0px;
+    left: 137px;
+    width: 196px;
+    height: 49px;
+    text-align: center;
+    font: normal normal bold 40px/49px Inter;
+    letter-spacing: 0px;
+    opacity: 1
+    
+}
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0px 0px 0px ;
+    padding: 10px;
+    
+}
+.cards {
+    width: 260px;
+    height: 330px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;     
+    margin: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 5px #7B7B7B29, -2px -2px 5px #7B7B7B29;
+
+
+}
+}
+
 /*page2*/
 
 .p2-blur {
@@ -124,13 +197,13 @@ body {
 
 .p2-popup {
     height: 200px;
-    width: 340px;
+    width: 400px;
     border: 1px solid #7B7B7B29;
     background-color: white;
     position: absolute;
     border-radius: 5px;
     top: 35%;
-    left: 36.8%;
+    left: 36%;
 
 
 }
@@ -162,11 +235,66 @@ body {
     color: white;
     border: #00A5EC;
     border-radius: 3px;
-    float: right;
+    display: block;
     font-size: large;
-    margin: 20px 20px 0px 0px;
+    margin: 20px 20px 0px 130px;
 }
+@media only screen and (min-width:756px) and (max-width:1024px){
+    .p2-popup {
+    height: 200px;
+    width: 400px;
+    border: 1px solid #7B7B7B29;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    top: 35%;
+    left: 25%;
 
+
+}
+}
+@media only screen and (min-width:326px) and (max-width:756px){
+    .p2-popup {
+    height: 200px;
+    width: 300px;
+    border: 1px solid #7B7B7B29;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    top: 35%;
+    left: 25%;
+
+}
+#p2t {
+    width: 180px;
+    height: 25px;
+    margin: 10px 10px 0px 20px;
+
+}
+#button {
+    width: 150px;
+    height: 40px;
+    background-color: #00A5EC;
+    color: white;
+    border: #00A5EC;
+    border-radius: 3px;
+    display: block;
+    font-size: large;
+    margin: 20px 20px 0px 50px;
+}
+}
+@media only screen and (min-width:326px) and (max-width:452px){
+    .p2-popup {
+        height: 200px;
+        width: 280px;
+        border: 1px solid #7B7B7B29;
+        background-color: white;
+        position: absolute;
+        border-radius: 5px;
+        top: 35%;
+        left: 8%;
+    }
+}
 
 /*page3*/
 
@@ -178,18 +306,43 @@ body {
 
 #p3p {
     display: inline;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 100px;
 
 }
 
 .card1 {
-    width: 340px;
+    width: 400px;
     height: 280px;
-    margin: 50px 310px 0px 10px;
+    margin: 50px 310px 0px 450px;
 
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+@media only screen and (min-width:756px) and (max-width:1024px){
+    .card1 {
+        width: 400px;
+        height: 280px;
+        margin: 50px 0px 0px 220px;
+    
+    }
+}
+
+@media only screen and (min-width:326px) and (max-width:756px){
+    .card1 {
+        width: 300px;
+        height: 280px;
+        margin: 50px 0px 0px 90px;
+    
+    }
+}
+@media only screen and (min-width:326px) and (max-width:452px){
+    .card1 {
+        width: 280px;
+        height: 280px;
+        margin: 50px 0px 0px 20px;
+    
+    }
 }
